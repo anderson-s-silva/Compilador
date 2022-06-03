@@ -1,0 +1,24 @@
+#Programa nao tem erro lexico
+
+:DEC
+parametro:INT
+fatorial:INT
+x:REAL
+
+:PROG 
+# Calcula o fatorial de um número inteiro
+LER parametro
+fatorial := parametro
+x := 1.1234567891011121314151617181920
+SE parametro == 0 ENTAO fatorial := 1
+ENQTO parametro > 1
+INI
+fatorial := fatorial * (parametro - 1) 
+parametro := parametro - 1
+FIM
+IMPRIMIR fatorial
+IMPRIMIR "Oi"
+
+
+
+
